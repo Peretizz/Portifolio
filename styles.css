@@ -487,7 +487,6 @@ body {
   transition: border-color 0.3s ease;
 }
 
-/* Updated focus color to emerald theme */
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
@@ -499,14 +498,12 @@ body {
   min-height: 120px;
 }
 
-/* Footer */
 .footer {
   background: #1e293b;
   color: white;
   padding: 2rem 0;
 }
 
-/* Centralized footer content and removed social links */
 .footer-content {
   display: flex;
   justify-content: center;
@@ -518,7 +515,6 @@ body {
   display: none;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -555,7 +551,6 @@ body {
     text-align: center;
   }
 
-  /* Updated responsive styles for social section */
   .social-section {
     padding: 1.5rem;
   }
