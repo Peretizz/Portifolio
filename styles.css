@@ -495,6 +495,29 @@ body {
   display: none;
 }
 
+form .btn-enviar{
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input{
+  width: 120px;
+  height: 30px;
+  background-color: #059669;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover, form .btn-enviar input:hover {
+  box-shadow: 0px 0px 20px #059669;
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
