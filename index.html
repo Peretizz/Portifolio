@@ -247,18 +247,6 @@
             }),
         )
 
-        // Form submission
-        const contactForm = document.querySelector(".contact-form")
-        contactForm.addEventListener("submit", function (e) {
-            e.preventDefault()
-
-            // Aqui você pode adicionar a lógica para enviar o formulário
-            alert("Mensagem enviada com sucesso! Entrarei em contato em breve.")
-
-            // Reset do formulário
-            this.reset()
-        })
-
         // Header background on scroll
         window.addEventListener("scroll", () => {
             const header = document.querySelector(".header")
