@@ -608,10 +608,13 @@ form .btn-enviar input:hover {
   flex-direction: column;
 }
 
+
 .footer-social .footer-title {
-  margin-bottom: 1rem;
-  align-self: flex-start;
+  text-align: center;
+  align-self: center;
+  width: 100%;
 }
+
 
 .btn-social {
   display: flex;
