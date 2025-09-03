@@ -363,13 +363,15 @@ body {
 }
 
 .tech-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
+  justify-content: center; 
 }
 
 .tech-card {
+  flex: 0 1 300px;
   background: #f0fdf4;
   border-radius: 16px;
   padding: 2rem;
