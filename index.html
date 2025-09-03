@@ -7,6 +7,7 @@
     <title>Nicolas Pereti - Desenvolvedor Full Stack</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
@@ -170,47 +171,60 @@
     </section>
 
     <section id="contact" class="contact">
-    <div class="container">
-        <h2 class="section-title">Entre em Contato</h2>
-        <div class="contact-content">
-            <!-- Removido o bloco contact-info daqui -->
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <!-- Removido o bloco contact-info daqui -->
 
-            <form class="contact-form" action="https://formsubmit.co/peretinicolas82@gmail.com" method="POST">
-                <div class="form-group">
-                    <input type="text" name="nome" placeholder="Seu Nome:" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Seu Email:" required>
-                </div>
-                <div class="form-group">
-                    <textarea name="mensagem" placeholder="Sua Mensagem:" rows="5" required></textarea>
-                </div>
-                <div class="btn-enviar">
-                    <input type="submit" value="ENVIAR">
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="container footer-content">
-        <div class="contact-info-footer">
-            <h3>Vamos trabalhar juntos!</h3>
-            <p>Estou sempre aberto a novos projetos e oportunidades interessantes.</p>
-            <div class="contact-item">
-                <strong>Email:</strong> peretinicolas82@gmail.com
-            </div>
-            <div class="contact-item">
-                <strong>Telefone:</strong> (49) 99969-9630
-            </div>
-            <div class="contact-item">
-                <strong>Localização:</strong> Videira, SC
+                <form class="contact-form" action="https://formsubmit.co/peretinicolas82@gmail.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="nome" placeholder="Seu Nome:" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Seu Email:" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" placeholder="Sua Mensagem:" rows="5" required></textarea>
+                    </div>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
             </div>
         </div>
-        <p>&copy; 2025 Nicolas Pereti. Todos os direitos reservados.</p>
-    </div>
-</footer>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section footer-about">
+                <h2 class="footer-brand">Nicolas Pereti</h2>
+                <p>Desenvolvedor Full Stack apaixonado por criar soluções digitais inovadoras e funcionais.</p>
+            </div>
+
+            <div class="footer-section footer-contact-social">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a
+                            href="mailto:peretinicolas82@gmail.com">peretinicolas82@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+5549999699630">+55 (49) 99969-9630</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Videira, SC - Brasil</p>
+                </div>
+                <div class="btn-social">
+                    <a href="https://www.instagram.com/_pereti/" target="_blank" aria-label="Instagram">
+                        <button><i class="fab fa-instagram"></i></button>
+                    </a>
+                    <a href="https://github.com/Peretizz" target="_blank" aria-label="GitHub">
+                        <button><i class="fab fa-github"></i></button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nicolas-pereti-31b846359/" target="_blank"
+                        aria-label="LinkedIn">
+                        <button><i class="fab fa-linkedin"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Nicolas Pereti. Todos os direitos reservados.</p>
+    </footer>
+
 
 
     <script>
