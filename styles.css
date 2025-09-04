@@ -37,7 +37,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 15px 20px;
+  /* Alterado de 0 20px para 15px 20px */
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -522,7 +523,8 @@ form .btn-enviar input:hover {
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Alinha as colunas no topo */
+  align-items: flex-start;
+  /* Alinha as colunas no topo */
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -728,7 +730,7 @@ form .btn-enviar input:hover {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 80px; /* Ajuste para o novo tamanho do header */
     flex-direction: column;
     background-color: white;
     width: 100%;
